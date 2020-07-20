@@ -7,83 +7,40 @@ html, body {
      padding: 0;
 }
 body {
-    background-color: #777;
+    background-color: #1f2e48;
 }
 .container {
-    width: 500px;
-    display: flexbox;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    background-color: #ddd;
-    margin: 60px auto;
-    padding: 5px 30px;
-    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: #1b2434;
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    color: #ddd ;
+    padding: 50px;
+    margin-top: 100px;
     
 }
-.fa-times {
-    position: relative;
-    top: 5px;
-    left: 443px;
-    color: #888;
-    font-size: 20px;
-}
-
-main {
+.container h3, p{
     text-align: center;
-    padding-bottom: 29px;
 }
-main h3 {
-    padding-top: 20px;
-    margin: 10px 0px;
+.container p{
+    text-align: center;
+    font-size: 13px;
 }
-main p {
-    padding: 0px 20px 30px 20px;
-    color: #555;
-    font-size: 14px;
-}
-
-.facebook {
-    padding: 8px 20px;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(22, 46, 120);
-    color: #fff;
-    margin-right: 8px;
-}
-.twitter {
-    padding: 8px 20px;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(93, 171, 230);
-    color: #fff;
-    margin-right: 8px;
-}
-
-.buttons i {
-    padding-right: 5px;
-}
-.reddit {
-    padding: 8px 20px;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(44, 44, 45);
-    color: #fff;
-}
-
-h4 span {
-    color: #555;
-    
-}
-
-h4 {
-    padding: 10px;
-}
-
-a {
+.container a{
     text-decoration: none;
-    color: salmon;
+    font-size: 13px;
+    color: #0226a5;
+}
+main {
+    display: flex;
+}
+.box {
+    text-align: center;
+    padding: 15px;
+}
+.box p {
     font-size: 14px;
     
 }
